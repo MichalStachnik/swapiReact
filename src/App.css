@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100vh;
+  color: #ff6f69;
+}
+
+#menu {
+  background: #162238;
+}
+
+#menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  cursor: pointer;
+  transition: .2s all ease-in-out;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+#menu li:hover {
+  color: #333;
+  background: #ff6f69;
+}
+
+#dashboard {
+  background: #324359;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+  grid-gap: 5px;
+}
+
+#dashboard li {
+  color: #707F8C;
+  background: #ffcc5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#menu li:last-child {
+  border: none;
+}
+
+#menu li:last-child:hover {
+  background: #162238;
+  color: #ff6f69;
+}
+#menu p:first-child {
+  margin-right: 10px;
+}
+#menu p {
+  transition: .2s all ease-in-out;
+  background: #ffcc5c;
+  padding: 10px;
+  border-radius: 3px;
+}
+#menu p:hover {
+  color: #ffcc5c;
+  background: #ff6f69;
+}
+
+ul {
+  list-style-type: none;
+}
+
